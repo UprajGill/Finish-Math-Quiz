@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>2nd Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body><h2 id="player1name"></h2><span id="player1score"></span>
+<br>
+<h2 id="player2name"></h2><span id="player2score"></span>
+<div class="container">
+    <center>
+        <h1 style="color: aquamarine;">Math Quiz Game</h1>
+        <h3 id="playerquestion"></h3>
+        <h3 id="playeranswer"></h3>
+        <div id="output" class="col-lg-6">
+
+
+        </div>
+        <br>
+        <br>
+<label>Send Your Math Problem:<b style="color:red;">Remember it is only multiplication, so don't put too big of a number</b></label>
+<input type="text" id="num1" placeholder="1st Number" class="form-control">
+<br>
+<input type="text" id="num1" placeholder="2nd Number" class="form-control">
+<br>
+<button onclick="send()" class="btn-success" style="width:35%;">Send</button>
+    </center>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
